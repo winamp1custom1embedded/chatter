@@ -57,7 +57,7 @@ if (!file_exists('settings.php')) {
     echo json_encode(['success' => false, 'error' => 'Fatal Error: Configuration file settings.php is missing.']);
     exit();
 }
-require_once 'settings.php';
+require_once 'chattingembedded.unaux.com/settings.php';
 
 // Set headers for JSON response and allow cross-origin requests (for testing/development)
 header('Content-Type: application/json');
